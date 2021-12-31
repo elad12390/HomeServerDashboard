@@ -1,4 +1,9 @@
-
+#IconItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #link-icon-container {
     display: flex;
     align-items: center;

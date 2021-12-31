@@ -5,5 +5,5 @@ export const Character = async () => {
         initialized = true
         await fetchStyle('/src/components/Character/Character.css')
     }
-    return `<img id="character" src="${configuration.IMAGES_BASE_URL}/Satoru_Gojo.png"/>`
+    return `<img id="character" class="${configuration.CHARACTER_SIDE + '-side'}" src="${configuration.IMAGES_BASE_URL}/${configuration.CHARACTER_IMG}"/>`
 };

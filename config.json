@@ -1,7 +1,9 @@
 {
   "config": {
     "MAX_ITEMS_IN_ROW": 3,
-    "IMAGES_BASE_URL": "./src/assets/images"
+    "IMAGES_BASE_URL": "./src/assets/images",
+    "CHARACTER_IMG": "Satoru_Gojo.png",
+    "CHARACTER_SIDE": "r"
   },
   "links" : [
     {
