@@ -1,0 +1,32 @@
+{
+  "config": {
+    "MAX_ITEMS_IN_ROW": 3,
+    "IMAGES_BASE_URL": "./src/assets/images"
+  },
+  "links" : [
+    {
+      "file":"plex.png",
+      "title": "Plex",
+      "port": 32400
+    },
+    {
+      "file":"radarr.png",
+      "title": "Radarr",
+      "port": 7878
+    },
+    {
+      "file":"bazarr.png",
+      "title": "Bazarr",
+      "port": 6767
+    },
+    {
+      "file":"sonarr.png",
+      "title": "Sonarr",
+      "port": 8989
+    },
+    {
+      "file":"qbitorrent.svg",
+      "title": "QBitorrent",
+      "port": 9966
+    }]
+}

@@ -1,0 +1,8 @@
+
+#character {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 25vw;
+    max-width: 200px;
+}

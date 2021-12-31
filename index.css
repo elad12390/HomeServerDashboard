@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+:root {
+    --link-icon-size: 100px;
+    --link-icon-img-size: calc(var(--link-icon-size) + 2px);
+    --icon-gap: 20px;
+    --text-size: 28px;
+}
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    background: rgb(52,73,102);
+    background: linear-gradient(180deg, rgba(52,73,102,1) 14%, rgba(93,96,126,1) 52%, rgba(133,118,149,1) 77%, rgba(171,138,171,1) 90%, rgba(195,151,185,1) 96%, rgba(230,170,206,1) 100%);
+    background-size: cover;
+    font-family: 'Alef', sans-serif;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#icons {
+    display: grid;
+    grid-gap: 20px 10px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    :root {
+        --link-icon-size: 164px;
+        --link-icon-img-size: calc(var(--link-icon-size) + 2px);
+        --icon-gap: 45px;
+        --text-size: 49px;
+    }
+}
