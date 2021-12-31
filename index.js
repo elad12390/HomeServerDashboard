@@ -30,8 +30,14 @@ Object.defineProperty(String.prototype, 'component', {
             // load app
             const {App} = await import('./src/App.js')
 
+            // Set title by configuration
+            document.querySelector('title').innerHTML= config.PAGE_TITLE
+
             // Bootstrap into body
-            document.querySelector('body').innerHTML = (await App()).component;
+            const body = document.querySelector('body')
+            body.innerHTML = (await App()).component;
+            config.background && (body.style.background = config.background);
+
             console.log((await App()).component);
         })
 })();

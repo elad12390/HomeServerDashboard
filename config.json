@@ -3,13 +3,21 @@
     "MAX_ITEMS_IN_ROW": 3,
     "IMAGES_BASE_URL": "./src/assets/images",
     "CHARACTER_IMG": "Satoru_Gojo.png",
-    "CHARACTER_SIDE": "r"
+    "CHARACTER_SIDE": "r",
+    "PAGE_TITLE":"Benhaims Server",
+    "BACKGROUND_IMAGE": ""
   },
   "links" : [
     {
       "file":"plex.png",
       "title": "Plex",
       "port": 32400
+    },
+    {
+      "file":"plex.png",
+      "title": "Plex",
+      "port": 32400,
+      "route": "asdf"
     },
     {
       "file":"radarr.png",
