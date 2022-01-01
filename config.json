@@ -14,12 +14,6 @@
       "port": 32400
     },
     {
-      "file":"plex.png",
-      "title": "Plex",
-      "port": 32400,
-      "route": "asdf"
-    },
-    {
       "file":"radarr.png",
       "title": "Radarr",
       "port": 7878
@@ -34,6 +28,11 @@
       "title": "Sonarr",
       "port": 8989
     },
+	{
+	  "file":"jackett.png",
+      "title": "Jackett",
+      "port": 9117
+	},
     {
       "file":"qbitorrent.svg",
       "title": "QBitorrent",
