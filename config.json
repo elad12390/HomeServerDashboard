@@ -37,5 +37,11 @@
       "file":"qbitorrent.svg",
       "title": "QBitorrent",
       "port": 9966
-    }]
+    },
+    {
+      "file":"librespeed.png",
+      "title": "LibreSpeed",
+      "port": 23059
+    }
+  ]
 }
