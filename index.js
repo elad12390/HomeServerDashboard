@@ -37,7 +37,5 @@ Object.defineProperty(String.prototype, 'component', {
             const body = document.querySelector('body')
             body.innerHTML = (await App()).component;
             config.background && (body.style.background = config.background);
-
-            console.log((await App()).component);
         })
 })();
