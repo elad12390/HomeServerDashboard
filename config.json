@@ -5,43 +5,55 @@
     "CHARACTER_IMG": "Satoru_Gojo.png",
     "CHARACTER_SIDE": "r",
     "PAGE_TITLE":"Benhaims Server",
-    "BACKGROUND_IMAGE": ""
+    "BACKGROUND_COLOR": "",
+    "BACKGROUND_IMAGE": "",
+    "BACKGROUND_CSS": "",
+    "TOOLTIP_SIDE": "top"
   },
   "links" : [
     {
-      "file":"plex.png",
+      "icon":"plex.png",
       "title": "Plex",
-      "port": 32400
+      "port": 32400,
+      "url": "",
+      "route": "",
+      "description": "Watch Our Saved Movies/Series"
     },
     {
-      "file":"radarr.png",
+      "icon":"radarr.png",
       "title": "Radarr",
-      "port": 7878
+      "port": 7878,
+      "description": "Download Movies"
     },
     {
-      "file":"bazarr.png",
-      "title": "Bazarr",
-      "port": 6767
-    },
-    {
-      "file":"sonarr.png",
+      "icon":"sonarr.png",
       "title": "Sonarr",
-      "port": 8989
+      "port": 8989,
+      "description": "Download Series"
+    },
+    {
+      "icon":"bazarr.png",
+      "title": "Bazarr",
+      "port": 6767,
+      "description": "Subtitles Downloader"
     },
 	{
-	  "file":"jackett.png",
+	  "icon":"jackett.png",
       "title": "Jackett",
-      "port": 9117
+      "port": 9117,
+      "description": "Torrent Indexer"
 	},
     {
-      "file":"qbitorrent.svg",
+      "icon":"qbitorrent.svg",
       "title": "QBitorrent",
-      "port": 9966
+      "port": 9966,
+      "description": "Torrent Downloader"
     },
     {
-      "file":"librespeed.png",
+      "icon":"librespeed.png",
       "title": "LibreSpeed",
-      "port": 23059
+      "port": 23059,
+      "description": "Speed Test"
     }
   ]
 }

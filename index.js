@@ -36,6 +36,8 @@ Object.defineProperty(String.prototype, 'component', {
             // Bootstrap into body
             const body = document.querySelector('body')
             body.innerHTML = (await App()).component;
-            config.background && (body.style.background = config.background);
+            config.BACKGROUND_COLOR && (body.style.background = config.BACKGROUND_COLOR);
+            config.BACKGROUND_IMAGE && (body.style.background = `url(${config.IMAGES_BASE_URL}/${config.BACKGROUND_IMAGE})`);
+            config.BACKGROUND_CSS && (body.style.background = config.BACKGROUND_CSS);
         })
 })();

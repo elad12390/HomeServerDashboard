@@ -3,6 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    color: white;
+    background: #ffffff21;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 #link-icon-container {
     display: flex;
@@ -48,6 +53,44 @@
     flex: 1;
     font-size: var(--text-size);
     text-shadow: 1px 1px 0px #000000;
+    position: relative;
+}
+#icon-label[data-text]::after {
+    position: absolute;
+    display: none;
+    content: attr(data-text);
+    z-index: 100;
+    background-color: #000000ed;
+    border-radius: 17px;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1rem;
+    border: 2px groove #ffffffd6;
+    box-shadow: 1px 1px 0 0 rgb(0 0 0 / 44%);
+}
+#icon-label[data-text].top::after {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#icon-label[data-text].bottom::after {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#icon-label[data-text].left::after {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 108%;
+}
+#icon-label[data-text].right::after {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 108%;
+}
+#icon-label[data-text]:hover::after {
+    display: block;
 }
 @media only screen and (max-width: 1000px) {
     #icons {

@@ -5,6 +5,7 @@
     --link-icon-img-size: calc(var(--link-icon-size) + 2px);
     --icon-gap: 20px;
     --text-size: 28px;
+    --description-size: 15px;
 }
 html {
     height: 100%;
@@ -30,7 +31,7 @@ body {
 }
 #icons {
     display: grid;
-    grid-gap: 20px 10px;
+    grid-gap: 12px 12px;
     max-height: 100%;
     max-width: 100%;
 }
